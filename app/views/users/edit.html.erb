@@ -2,11 +2,5 @@
 
 <%= render 'form' %>
 
-<% if signed_in? %>
-  <div>
-  		<%= link_to "Sign out", destroy_user_session_path, method: :delete %>
-  </div>
-<% end %>
-
 <%= link_to 'Show', @user %> |
 <%= link_to 'Back', users_path %>

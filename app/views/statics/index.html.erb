@@ -1,3 +1,9 @@
 <div align="center">
   <h1>Hello, world!</h1>
+
+  <% if signed_in? %>
+	  <div>
+	  		<%= link_to "Sign out", destroy_user_session_path, method: :delete %>
+	  </div>
+	<% end %>
 </div>
