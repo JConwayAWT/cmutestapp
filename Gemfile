@@ -40,6 +40,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'devise'
 gem 'mailcatcher', group: :development
-gem 'therubyracer', platforms: :ruby
-gem 'autoprefixer-rails'
-gem 'rails_12factor', group: :production
